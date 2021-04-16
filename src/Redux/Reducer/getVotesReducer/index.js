@@ -1,15 +1,8 @@
 import { ADD_DATA } from '../../../Constants/defines';
-import {URL} from '../../../Constants/Api/Url';
-import { GROUP_SERVICE, PROS_CONS_SERVICE, USER_SERVICE } from '../../../Constants/Api/Service';
+import { getVotesApi } from '../../Api';
+import { addDataAction } from '../../Action';
 
-const getDataAction = (data) => {
-  return {
-    type: ADD_DATA,
-    payload: data,
-  }
-}
-
-const getProsConsDataReducer = (state = {}, action) => {
+const getVotesReducer = (state = {}, action) => {
   switch (action.type) {
     case ADD_DATA:
       return {
@@ -21,10 +14,9 @@ const getProsConsDataReducer = (state = {}, action) => {
   }
 };
 
-export const getVotes = ({groupId, userId}) => async dispatch => {
-  const response = await fetch(`${URL}${PROS_CONS_SERVICE}${GROUP_SERVICE}${groupId}/${USER_SERVICE}${userId}`);
-  const data = await response.json();
-  dispatch(getDataAction(data));
+export const getVotes = params => async dispatch => {
+  const data = await getVotesApi(params);
+  dispatch(addDataAction(JSON.parse(data)));
 }
 
-export default getProsConsDataReducer;
+export default getVotesReducer;

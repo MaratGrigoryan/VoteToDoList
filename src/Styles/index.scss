@@ -1,0 +1,13 @@
+@import './Components/List';
+
+.voteListContainer {
+  display: flex;
+  justify-content: center;
+
+  .prosAndConsList {
+    display: flex;
+    border: 1px solid silver;
+    justify-content: center;
+
+  }
+}
