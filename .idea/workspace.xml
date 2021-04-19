@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8831562-d9ce-4daa-b39c-8ab719136e32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Utils/connection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/helpers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/List/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/List/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ListItems/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ListItems/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ConsVote/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ConsVote/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ProsAndConsPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ProsAndConsPage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ProsVote/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ProsVote/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/Api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/Reducer/UpdateVotesReducer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Reducer/UpdateVotesReducer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/connection.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

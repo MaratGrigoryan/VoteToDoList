@@ -23,6 +23,8 @@ class Connection {
       if (response.ok) {
         const data = await response.json();
         return JSON.parse(data);
+      } else {
+        console.log('Your vote not counted!');
       }
     } catch (e) {
         console.error(e)
