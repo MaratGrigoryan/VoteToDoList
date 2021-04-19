@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from 'react-redux';
 
 import ProsAndConsPage from '../../Pages/ProsAndConsPage';
 import { updateVotes } from '../../Redux/Reducer/UpdateVotesReducer';
+import { removeElement } from '../../Utils/helpers';
 
 const ProsVote = () => {
   const dispatch = useDispatch();
@@ -17,8 +18,7 @@ const ProsVote = () => {
   } = useSelector(state => state);
 
   const handleChangePros = i => {
-    const newPros = [...pros];
-    newPros.splice(i, 1);
+    const newPros = removeElement(pros, i);
 
     const newData = {
       groupId,

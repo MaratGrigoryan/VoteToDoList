@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import PropTypes from 'prop-types';
+
 import List from '../../Components/List';
 
 const ProsAndConsPage = ({ voteType, data, onRemove, addVote }) => {
@@ -29,6 +31,17 @@ const ProsAndConsPage = ({ voteType, data, onRemove, addVote }) => {
       </div>
     </>
   )
+};
+
+ProsAndConsPage.propTypes = {
+  data: PropTypes.array,
+  voteType: PropTypes.string.isRequired,
+  onRemove: PropTypes.func.isRequired,
+  addVote: PropTypes.func.isRequired,
+};
+
+ProsAndConsPage.defaultProps = {
+  data: [],
 };
 
 export default ProsAndConsPage;

@@ -2,36 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8831562-d9ce-4daa-b39c-8ab719136e32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/List/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ListItems/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Constants/Api/ApiName/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Constants/Api/Service/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Constants/Api/Url/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Constants/Api/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Constants/defines/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/ConsVote/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/ProsAndConsPage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/ProsVote/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/Action/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/Api/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/Reducer/UpdateVotesReducer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/Reducer/callParamsReducer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/Reducer/getVotesReducer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/Reducer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/Store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Styles/Components/List/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Styles/Components/ListItems/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/connection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/List/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/List/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ListItems/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ListItems/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/ConsVote/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ConsVote/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/ProsAndConsPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ProsAndConsPage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/ProsVote/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ProsVote/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/Api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/Reducer/UpdateVotesReducer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Reducer/UpdateVotesReducer/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

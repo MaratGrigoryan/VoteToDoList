@@ -1,37 +1,15 @@
 import { URL } from '../../Constants/Api/Url';
-import { PUT_METHOD } from '../../Constants/defines';
 import { GET_GROUP_ID, GET_USER_ID } from '../../Constants/Api';
 import { GROUP_SERVICE, PROS_CONS_SERVICE, USER_SERVICE } from '../../Constants/Api/Service';
 
-export const getGroupIdApi = async () => {
-  const response = await fetch(GET_GROUP_ID);
-  return await response.json();
-};
+import Connection from '../../Utils/connection';
 
-export const getUserIdApi = async () => {
-  const response = await fetch(GET_USER_ID);
-  return await response.json();
-};
+export const getGroupIdApi = async () => await Connection.get(GET_GROUP_ID);
 
-export const getVotesApi = async ({ groupId, userId }) => {
-  const response = await fetch(`${URL}${PROS_CONS_SERVICE}${GROUP_SERVICE}${groupId}/${USER_SERVICE}${userId}`);
-  return await response.json();
-};
+export const getUserIdApi = async () => await Connection.get(GET_USER_ID);
 
-export const updateVotesApi = async ({ groupId, userId, data }) => {
-  try {
-    const response = await fetch(`${URL}${PROS_CONS_SERVICE}${GROUP_SERVICE}${groupId}/${USER_SERVICE}${userId}`, {
-      method: PUT_METHOD,
-      body: JSON.stringify(data)
-    });
+export const getVotesApi = async ({ groupId, userId }) =>
+  await Connection.get(`${URL}${PROS_CONS_SERVICE}${GROUP_SERVICE}${groupId}/${USER_SERVICE}${userId}`);
 
-    if (response.ok) {
-      return await response.json();
-    }
-
-  }catch (e) {
-    console.log(e)
-  }
-
-
-};
+export const updateVotesApi = async ({ groupId, userId, data }) =>
+  await Connection.put(`${URL}${PROS_CONS_SERVICE}${GROUP_SERVICE}${groupId}/${USER_SERVICE}${userId}`, data);

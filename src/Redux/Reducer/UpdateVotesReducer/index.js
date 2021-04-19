@@ -3,5 +3,5 @@ import { addDataAction } from '../../Action';
 
 export const updateVotes = params => async dispatch =>  {
   const data = await updateVotesApi(params);
-  data && dispatch(addDataAction(JSON.parse(data)));
-}
+  data && dispatch(addDataAction(data));
+};
